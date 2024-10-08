@@ -10,7 +10,7 @@ def distance(xA,yA,xB,yB):
 def appartient_cercle(xA,yA,rayon):
     # teste si le point (xA,yA) appartient
     # au cercle de rayon r centré à l'origine
-    if distance(0,0,xA,yA)==rayon:
+    if distance(0,0,xA,yA)<=rayon:
         return True
     else:
         return False
